@@ -4,7 +4,7 @@ Conjunto de API, para desenvolvedores.
 
 _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora._
 
-#Como instalar
+## Como instalar
 
 ```pip3 install apigratis==0.0.9```
 ## Canais de suporte (Comunidade)
@@ -14,7 +14,7 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 ## Obtenha suas credenciais
 https://apigratis.com.br
 
-# Mais informações
+## Mais informações
 
 https://pypi.org/project/apigratis/0.0.9/
 
@@ -30,7 +30,7 @@ https://pypi.org/project/apigratis/0.0.9/
 | ✅ | VehiclesService                | API Placa Dados.                        |   ⌛   | ⌛                   | ⌛                   |
 | ✅ | FipeService                    | API Placa FIPE.                         |   ⌛   | ⌛                   | ⌛                   |
 
-# Como utilizar
+## Como utilizar
 
 ```python
 
