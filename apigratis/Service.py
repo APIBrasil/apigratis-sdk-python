@@ -3,24 +3,52 @@ import json
 
 class Service:
 
-    def whatsapp(self, data):
+    def whatsapp(dados):
 
-        server = "https://cluster-01.apigratis.com/api/v1/whatsapp/"
+        try:
+            server = "https://cluster-01.apigratis.com/api/v1/whatsapp/"
 
-        url = server+data.action
-        payload = json.dumps(data.body)
+            data = json.loads(dados)
 
-        credentials = data.credentials
+            if not data['action']:
+                raise Exception('Action não informada, verifique a documentação')
 
-        headers = {
-            'Content-Type': 'application/json',
-            'SecretKey': credentials.SecretKey,
-            'PublicToken': credentials.PublicToken,
-            'Authorization': 'Bearer ' + credentials.BearerToken,
-            'DeviceToken': credentials.DeviceToken
-        }
+            action = data['action']
 
-        response = requests.request("POST", url, headers=headers, data=payload)
+            url = server+str(action)
 
-        return json.loads(response.text.encode('utf8'))
-    
+            if not data['body']:
+                raise Exception('Body não informado, verifique a documentação')
+
+            payload = json.dumps(data['body'])
+
+            credentials = data['credentials']
+
+            #valida se os dados foram passados
+            if not credentials['SecretKey']:
+                raise Exception('SecretKey não informado')
+            if not credentials['PublicToken']:
+                raise Exception('PublicToken não informado')
+            if not credentials['BearerToken']:
+                raise Exception('BearerToken não informado')
+            if not credentials['DeviceToken']:
+                raise Exception('DeviceToken não informado')
+
+            headers = {
+                'Content-Type': 'application/json',
+                'SecretKey': credentials['SecretKey'],
+                'PublicToken': credentials['PublicToken'],
+                'Authorization': 'Bearer ' + credentials['BearerToken'],
+                'DeviceToken': credentials['DeviceToken']
+            }
+
+            agent = 'APIBRASIL\Whatsapp/1.0.0' 
+
+            headers['User-Agent'] = agent
+
+            response = requests.request("POST", url, headers=headers, data=payload, allow_redirects=False, stream=True, proxies=None)
+
+            return json.loads(response.text.encode('utf8'))
+
+        except Exception as e:
+            return {'error': str(e)}

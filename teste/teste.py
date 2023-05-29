@@ -3,20 +3,24 @@ import json
 
 def main():
 
-    Service.whatsapp('null', {
-        'action': 'sendText',
-        'credentials': {
-            'SecretKey': 'secretKey',
-            'PublicToken': 'publicToken',
-            'DeviceToken': 'deviceToken',
-            'BearerToken': 'bearerToken'
+    json_data = {
+        "action": "sendText",
+        "credentials": {
+            "SecretKey": "secretKey",
+            "PublicToken": "publicToken",
+            "DeviceToken": "deviceToken",
+            "BearerToken": "bearerToken"
         },
-        'body': {
-            'message': 'Hello World',
-            'phone': '5511999999999',
-            'time_typing': 1
+        "body": {
+            "message": "Hello World",
+            "phone": "5511999999999",
+            "time_typing": 1
         }
-    })
+    }
 
-if __name__ == '__main__':
+    teste = Service.whatsapp(json.dumps(json_data))
+
+    print(teste)
+
+if __name__ == "__main__":
     main()
