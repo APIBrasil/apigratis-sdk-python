@@ -1,5 +1,6 @@
 README.md
 setup.py
+apigratis-sdk-python/ServiceClass.py
 apigratis-sdk-python/__init__.py
 apigratis_sdk_python.egg-info/PKG-INFO
 apigratis_sdk_python.egg-info/SOURCES.txt
