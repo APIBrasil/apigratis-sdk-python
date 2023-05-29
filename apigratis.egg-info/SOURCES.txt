@@ -1,0 +1,9 @@
+README.md
+setup.py
+apigratis/Service.py
+apigratis/__init__.py
+apigratis.egg-info/PKG-INFO
+apigratis.egg-info/SOURCES.txt
+apigratis.egg-info/dependency_links.txt
+apigratis.egg-info/requires.txt
+apigratis.egg-info/top_level.txt
