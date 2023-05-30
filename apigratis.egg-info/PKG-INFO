@@ -1,10 +1,72 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: apigratis
-Version: 0.1.1
-Summary: Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como  API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora.
-Home-page: UNKNOWN
-Author: APIBRASIL
+Version: 0.0.1
+Summary: Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais
+Home-page: https://github.com/caiocarneloz/apigratis
+Author: Caio Carneloz
 Author-email: contato@apibrasil.com.br
-License: UNKNOWN
-Description: UNKNOWN
+License: MIT License
+Description: # SDK Python - APIGratis by API BRASIL ðŸš€
+        
+        Conjunto de API, para desenvolvedores.
+        
+        _Transforme seus projetos em soluÃ§Ãµes inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalizaÃ§Ã£o, rastreamento de encomendas, verificaÃ§Ã£o de CPF/CNPJ e mais, vocÃª pode criar soluÃ§Ãµes eficientes e funcionais. Comece agora._
+        
+        #Como instalar
+        
+        ```pip3 install apigratis==0.0.9```
+        ## Canais de suporte (Comunidade)
+        [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
+        [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
+        
+        ## Obtenha suas credenciais
+        https://apigratis.com.br
+        
+        # Mais informaÃ§Ãµes
+        
+        https://pypi.org/project/apigratis/0.1.0/
+        
+        ## ServiÃ§os de API disponÃ­veis
+        
+        | Up  | Services available            | Description       | Free    | Beta        | Stable   |
+        ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
+        | âœ… | WhatsAppService                | API do WhatsApp Gratuita.               |   âœ…   | âœ…                   | âŒ›                   |
+        | âœ… | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   âŒ›   | âŒ›                   | âŒ›                   |
+        | âœ… | Receita Data CPF               | API Dados de CPF Serasa.                |   âŒ›   | âŒ›                   | âŒ›                   |
+        | âœ… | CorreiosService                | API Busca encomendas Correios Brazil.   |   âŒ›   | âŒ›                   | âŒ›                   |
+        | âœ… | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   âŒ›   | âŒ›                   | âŒ›                   |
+        | âœ… | VehiclesService                | API Placa Dados.                        |   âŒ›   | âŒ›                   | âŒ›                   |
+        | âœ… | FipeService                    | API Placa FIPE.                         |   âŒ›   | âŒ›                   | âŒ›                   |
+        
+        # Como utilizar
+        
+        ```python
+        
+        from apigratis.Service import Service
+        import json
+        
+        def main():
+        
+            sendText = Service.whatsapp(json.dumps({
+                "action": "sendText",
+                "credentials": {
+                    "SecretKey": "SEU_SECRET_KEY"
+                    "PublicToken": "SEU_PUBLIC_TOKEN",
+                    "DeviceToken": "SEU_DEVICE_TOKEN",
+                    "BearerToken": "SEU_BEARER_TOKEN",
+                },
+                "body": {
+                    "message": "Hello World por Python",
+                    "phone": "5531994359434",
+                    "time_typing": 1
+                }
+            }))
+        
+            print(sendText)
+        
+        if __name__ == "__main__":
+            main()
+        ```
+Keywords: whatsapp api,apibrasil,cnpj,sms,cep,consulta,api,brasil,gratis,free,whatsapp,apiwhatsapp,apigratis,apifree
 Platform: UNKNOWN
+Description-Content-Type: text/markdown

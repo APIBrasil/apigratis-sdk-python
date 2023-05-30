@@ -1,4 +1,4 @@
-# SDK Python - APIGratis by API BRASIL 🚀
+# SDK Python - APIGratis by API BRASIL
 
 Conjunto de API, para desenvolvedores.
 
@@ -14,7 +14,7 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 ## Obtenha suas credenciais
 https://apigratis.com.br
 
-# Mais informações
+# Mais informacoes
 
 https://pypi.org/project/apigratis/0.1.0/
 
@@ -22,13 +22,13 @@ https://pypi.org/project/apigratis/0.1.0/
 
 | Up  | Services available            | Description       | Free    | Beta        | Stable   |
 ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
-| ✅ | WhatsAppService                | API do WhatsApp Gratuita.               |   ✅   | ✅                   | ⌛                   |
-| ✅ | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   ⌛   | ⌛                   | ⌛                   |
-| ✅ | Receita Data CPF               | API Dados de CPF Serasa.                |   ⌛   | ⌛                   | ⌛                   |
-| ✅ | CorreiosService                | API Busca encomendas Correios Brazil.   |   ⌛   | ⌛                   | ⌛                   |
-| ✅ | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   ⌛   | ⌛                   | ⌛                   |
-| ✅ | VehiclesService                | API Placa Dados.                        |   ⌛   | ⌛                   | ⌛                   |
-| ✅ | FipeService                    | API Placa FIPE.                         |   ⌛   | ⌛                   | ⌛                   |
+| O | WhatsAppService                | API do WhatsApp Gratuita.               |   O   | O                   | x                   |
+| x | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   x   | x                   | x                   |
+| x | Receita Data CPF               | API Dados de CPF Serasa.                |   x   | x                   | x                   |
+| x | CorreiosService                | API Busca encomendas Correios Brazil.   |   x   | x                   | x                   |
+| x | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   x   | x                   | x                   |
+| x | VehiclesService                | API Placa Dados.                        |   x   | x                   | x                   |
+| x | FipeService                    | API Placa FIPE.                         |   x   | x                   | x                   |
 
 # Como utilizar
 
