@@ -1,20 +1,20 @@
 Metadata-Version: 2.1
 Name: apigratis
-Version: 0.0.2
+Version: 0.0.3
 Summary: Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais
 Home-page: https://github.com/caiocarneloz/apigratis
 Author: Caio Carneloz
 Author-email: contato@apibrasil.com.br
 License: MIT License
-Description: # SDK Python - APIGratis by API BRASIL
+Description: # SDK Python - APIGratis by API BRASIL ðŸš€
         
         Conjunto de API, para desenvolvedores.
         
         _Transforme seus projetos em soluÃ§Ãµes inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalizaÃ§Ã£o, rastreamento de encomendas, verificaÃ§Ã£o de CPF/CNPJ e mais, vocÃª pode criar soluÃ§Ãµes eficientes e funcionais. Comece agora._
         
-        #Como instalar
+        ## Como instalar
         
-        ```pip3 install apigratis==0.0.9```
+        ```pip3 install apigratis==0.0.3```
         ## Canais de suporte (Comunidade)
         [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
         [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
@@ -22,7 +22,7 @@ Description: # SDK Python - APIGratis by API BRASIL
         ## Obtenha suas credenciais
         https://apigratis.com.br
         
-        # Mais informacoes
+        ## Mais informaÃ§Ãµes
         
         https://pypi.org/project/apigratis/0.1.0/
         
@@ -38,7 +38,7 @@ Description: # SDK Python - APIGratis by API BRASIL
         | x | VehiclesService                | API Placa Dados.                        |   x   | x                   | x                   |
         | x | FipeService                    | API Placa FIPE.                         |   x   | x                   | x                   |
         
-        # Como utilizar
+        ## Como utilizar
         
         ```python
         

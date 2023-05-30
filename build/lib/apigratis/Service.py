@@ -24,7 +24,6 @@ class Service:
 
             credentials = data['credentials']
 
-            #valida se os dados foram passados
             if not credentials['SecretKey']:
                 raise Exception('SecretKey não informado')
             if not credentials['PublicToken']:
