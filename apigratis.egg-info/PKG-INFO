@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: apigratis
-Version: 0.0.4
+Version: 1.0.0
 Summary: Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais
 Home-page: https://github.com/APIBrasil/apigratis-sdk-python
 Author: APIBRASIL
@@ -24,7 +24,7 @@ Description: # SDK Python - APIGratis by API BRASIL
         
         ## Mais informacoes
         
-        https://pypi.org/project/apigratis/0.0.3/
+        https://pypi.org/project/apigratis
         
         ## Servicos de API disponÃ­veis
         
@@ -39,6 +39,12 @@ Description: # SDK Python - APIGratis by API BRASIL
         | x | FipeService                    | API Placa FIPE.                         |   x   | x                   | x                   |
         
         ## Como utilizar
+        
+        _VocÃª pode utilizar todos os endpoints da API do WhatsApp, basta mudar o action e o body_
+        
+        ## Documentacoes
+        https://apibrasil.com.br/documentacoes
+        
         
         ```python
         

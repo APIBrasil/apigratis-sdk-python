@@ -1,3 +1,7 @@
+# more endpoints
+# https://apibrasil.com.br/documentacoes
+#!/usr/bin/env python
+
 from apigratis.Service import Service
 import json
 

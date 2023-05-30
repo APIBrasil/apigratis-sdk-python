@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(name='apigratis',
-    version='0.0.4',
+    version='1.0.0',
     url='https://github.com/APIBrasil/apigratis-sdk-python',
     license='MIT License',
     author='APIBRASIL',

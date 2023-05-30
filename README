@@ -32,6 +32,12 @@ https://pypi.org/project/apigratis
 
 ## Como utilizar
 
+_Voce pode utilizar todos os endpoints da API do WhatsApp, basta mudar o action e o body_
+
+## Documentacoes
+https://apibrasil.com.br/documentacoes
+
+
 ```python
 
 from apigratis.Service import Service
