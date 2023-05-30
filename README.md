@@ -1,4 +1,4 @@
-# SDK Python - APIGratis by API BRASIL
+# SDK Python - APIGratis by API BRASIL 🚀
 
 Conjunto de API, para desenvolvedores.
 
@@ -6,7 +6,7 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 
 #Como instalar
 
-```pip3 install apigratis==0.0.9```
+```pip3 install apigratis==0.0.3```
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
@@ -14,7 +14,7 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 ## Obtenha suas credenciais
 https://apigratis.com.br
 
-# Mais informacoes
+# Mais informações
 
 https://pypi.org/project/apigratis/0.1.0/
 
