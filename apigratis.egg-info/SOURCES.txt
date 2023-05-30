@@ -1,4 +1,3 @@
-README.md
 README.rst
 setup.py
 apigratis/Service.py
