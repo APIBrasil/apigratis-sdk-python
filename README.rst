@@ -16,7 +16,7 @@ https://apigratis.com.br
 
 # Mais informações
 
-https://pypi.org/project/apigratis/0.0.9/
+https://pypi.org/project/apigratis/0.1.0/
 
 ## Serviços de API disponíveis
 
