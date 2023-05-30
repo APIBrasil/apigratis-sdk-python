@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "apigratis"
 description = "Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="APIBRASIL", email="contato@apibrasil.com.br" },
 ]

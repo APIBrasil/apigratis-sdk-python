@@ -1,12 +1,12 @@
-# SDK Python - APIGratis by API BRASIL 🚀
+# SDK Python - APIGratis by API BRASIL
 
 Conjunto de API, para desenvolvedores.
 
-_Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora._
+_Transforme seus projetos em solucoes inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalizacao, rastreamento de encomendas, verificacao de CPF/CNPJ e mais, voce pode criar solucoes eficientes e funcionais._
 
 ## Como instalar
 
-```pip3 install apigratis==0.0.3```
+```pip3 install apigratis```
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
@@ -14,11 +14,11 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 ## Obtenha suas credenciais
 https://apigratis.com.br
 
-## Mais informações
+## Mais informacoes
 
-https://pypi.org/project/apigratis/0.1.0/
+https://pypi.org/project/apigratis/0.0.3/
 
-## Serviços de API disponíveis
+## Servicos de API disponíveis
 
 | Up  | Services available            | Description       | Free    | Beta        | Stable   |
 ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
