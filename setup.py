@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(name='apigratis',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/caiocarneloz/apigratis',
     license='MIT License',
     author='Caio Carneloz',

@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: apigratis
-Version: 0.0.1
+Version: 0.0.2
 Summary: Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais
 Home-page: https://github.com/caiocarneloz/apigratis
 Author: Caio Carneloz
 Author-email: contato@apibrasil.com.br
 License: MIT License
-Description: # SDK Python - APIGratis by API BRASIL ðŸš€
+Description: # SDK Python - APIGratis by API BRASIL
         
         Conjunto de API, para desenvolvedores.
         
@@ -22,7 +22,7 @@ Description: # SDK Python - APIGratis by API BRASIL ðŸš€
         ## Obtenha suas credenciais
         https://apigratis.com.br
         
-        # Mais informaÃ§Ãµes
+        # Mais informacoes
         
         https://pypi.org/project/apigratis/0.1.0/
         
@@ -30,13 +30,13 @@ Description: # SDK Python - APIGratis by API BRASIL ðŸš€
         
         | Up  | Services available            | Description       | Free    | Beta        | Stable   |
         ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
-        | âœ… | WhatsAppService                | API do WhatsApp Gratuita.               |   âœ…   | âœ…                   | âŒ›                   |
-        | âœ… | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   âŒ›   | âŒ›                   | âŒ›                   |
-        | âœ… | Receita Data CPF               | API Dados de CPF Serasa.                |   âŒ›   | âŒ›                   | âŒ›                   |
-        | âœ… | CorreiosService                | API Busca encomendas Correios Brazil.   |   âŒ›   | âŒ›                   | âŒ›                   |
-        | âœ… | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   âŒ›   | âŒ›                   | âŒ›                   |
-        | âœ… | VehiclesService                | API Placa Dados.                        |   âŒ›   | âŒ›                   | âŒ›                   |
-        | âœ… | FipeService                    | API Placa FIPE.                         |   âŒ›   | âŒ›                   | âŒ›                   |
+        | O | WhatsAppService                | API do WhatsApp Gratuita.               |   O   | O                   | x                   |
+        | x | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   x   | x                   | x                   |
+        | x | Receita Data CPF               | API Dados de CPF Serasa.                |   x   | x                   | x                   |
+        | x | CorreiosService                | API Busca encomendas Correios Brazil.   |   x   | x                   | x                   |
+        | x | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   x   | x                   | x                   |
+        | x | VehiclesService                | API Placa Dados.                        |   x   | x                   | x                   |
+        | x | FipeService                    | API Placa FIPE.                         |   x   | x                   | x                   |
         
         # Como utilizar
         
