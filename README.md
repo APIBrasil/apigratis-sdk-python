@@ -6,7 +6,7 @@ _Transforme seus projetos em solucoes inteligentes com nossa API. Com recursos c
 
 ## Como instalar
 
-```pip install apigratis```
+```pip install apigratis-sdk-python```
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
@@ -16,7 +16,7 @@ https://apigratis.com.br
 
 ## Mais informacoes
 
-https://pypi.org/project/apigratis
+https://pypi.org/project/apigratis-sdk-python
 
 ## Servicos de API disponiveis
 

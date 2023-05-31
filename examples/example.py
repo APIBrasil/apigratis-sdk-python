@@ -5,7 +5,7 @@
 from apigratis.Service import Service
 import json
 
-def main():
+def sendText():
 
     json_data = {
         "action": "sendText",
@@ -22,9 +22,9 @@ def main():
         }
     }
 
-    teste = Service.whatsapp(json.dumps(json_data))
+    sendText = Service.whatsapp(json.dumps(json_data))
 
-    print(teste)
+    print(sendText)
 
 if __name__ == "__main__":
-    main()
+    sendText()

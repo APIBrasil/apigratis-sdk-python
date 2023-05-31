@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: apigratis-sdk-python
-Version: 1.0.1
+Version: 1.0.2
 Summary: Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais
 Home-page: https://github.com/APIBrasil/apigratis-sdk-python
 Author: APIBRASIL
@@ -14,7 +14,7 @@ Description: # SDK Python - APIGratis by API BRASIL
         
         ## Como instalar
         
-        ```pip install apigratis```
+        ```pip install apigratis-sdk-python```
         ## Canais de suporte (Comunidade)
         [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
         [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
@@ -24,7 +24,7 @@ Description: # SDK Python - APIGratis by API BRASIL
         
         ## Mais informacoes
         
-        https://pypi.org/project/apigratis
+        https://pypi.org/project/apigratis-sdk-python
         
         ## Servicos de API disponiveis
         
