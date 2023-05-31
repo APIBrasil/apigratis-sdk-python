@@ -48,7 +48,7 @@ def main():
     sendText = Service.whatsapp(json.dumps({
         "action": "sendText",
         "credentials": {
-            "SecretKey": "SEU_SECRET_KEY"
+            "SecretKey": "SEU_SECRET_KEY",
             "PublicToken": "SEU_PUBLIC_TOKEN",
             "DeviceToken": "SEU_DEVICE_TOKEN",
             "BearerToken": "SEU_BEARER_TOKEN",
