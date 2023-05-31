@@ -54,7 +54,7 @@ def main():
             "BearerToken": "SEU_BEARER_TOKEN",
         },
         "body": {
-            "message": "Hello World por Python",
+            "message": "Hello World for Python",
             "phone": "5531994359434",
             "time_typing": 1
         }

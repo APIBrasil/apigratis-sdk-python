@@ -6,7 +6,7 @@ _Transforme seus projetos em solucoes inteligentes com nossa API. Com recursos c
 
 ## Como instalar
 
-```pip install apigratis```
+```pip install apigratis-sdk-python```
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
@@ -16,7 +16,7 @@ https://apigratis.com.br
 
 ## Mais informacoes
 
-https://pypi.org/project/apigratis
+https://pypi.org/project/apigratis-sdk-python
 
 ## Servicos de API disponiveis
 
@@ -48,13 +48,13 @@ def main():
     sendText = Service.whatsapp(json.dumps({
         "action": "sendText",
         "credentials": {
-            "SecretKey": "SEU_SECRET_KEY"
+            "SecretKey": "SEU_SECRET_KEY",
             "PublicToken": "SEU_PUBLIC_TOKEN",
             "DeviceToken": "SEU_DEVICE_TOKEN",
             "BearerToken": "SEU_BEARER_TOKEN",
         },
         "body": {
-            "message": "Hello World por Python",
+            "message": "Hello World for Python",
             "phone": "5531994359434",
             "time_typing": 1
         }

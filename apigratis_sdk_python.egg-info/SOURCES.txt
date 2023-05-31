@@ -1,0 +1,10 @@
+README
+pyproject.toml
+setup.py
+apigratis-sdk-python/Service.py
+apigratis-sdk-python/__init__.py
+apigratis_sdk_python.egg-info/PKG-INFO
+apigratis_sdk_python.egg-info/SOURCES.txt
+apigratis_sdk_python.egg-info/dependency_links.txt
+apigratis_sdk_python.egg-info/requires.txt
+apigratis_sdk_python.egg-info/top_level.txt

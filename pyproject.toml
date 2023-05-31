@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "apigratis"
-description = "Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora"
-version = "1.0.0"
+name = "apigratis-sdk-python"
+description = "A ideia desse SDK é otimizar o tempo de código dos usuários auxiliando na integração com a plataforma"
+version = "1.0.1"
 authors = [
   { name="APIBRASIL", email="contato@apibrasil.com.br" },
 ]
