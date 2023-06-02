@@ -22,13 +22,13 @@ https://pypi.org/project/apigratis-sdk-python
 
 | Up  | Services available            | Description       | Free    | Beta        | Stable   |
 ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
-| O | WhatsAppService                | API do WhatsApp Gratuita.               |   O   | O                   | x                   |
-| x | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   x   | x                   | x                   |
-| x | Receita Data CPF               | API Dados de CPF Serasa.                |   x   | x                   | x                   |
-| x | CorreiosService                | API Busca encomendas Correios Brazil.   |   x   | x                   | x                   |
-| x | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   x   | x                   | x                   |
-| x | VehiclesService                | API Placa Dados.                        |   x   | x                   | x                   |
-| x | FipeService                    | API Placa FIPE.                         |   x   | x                   | x                   |
+| ✓ | WhatsAppService                | API do WhatsApp Gratuita.               |   ✓   | ✓                   | x                   |
+| ✓ | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   ✓   | ✓                   | x                   |
+| ✓ | Receita Data CPF               | API Dados de CPF Serasa.                |   ✓   | ✓                   | x                   |
+| ✓ | CorreiosService                | API Busca encomendas Correios Brazil.   |   ✓   | ✓                   | x                   |
+| ✓ | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   ✓   | ✓                   | x                   |
+| ✓ | VehiclesService                | API Placa Dados.                        |   ✓   | ✓                   | x                   |
+| ✓ | FipeService                    | API Placa FIPE.                         |   ✓   | ✓                   | x                   |
 
 ## Como utilizar
 
@@ -37,15 +37,15 @@ _Voce pode utilizar todos os endpoints da API do WhatsApp, basta mudar o action 
 ## Documentacoes
 https://apibrasil.com.br/documentacoes
 
+## WhatsApp Service
 
 ```python
-
 from apigratis.Service import Service
 import json
 
-def main():
+def whatsapp():
 
-    sendText = Service.whatsapp(json.dumps({
+    sendText = Service().whatsapp(json.dumps({
         "action": "sendText",
         "credentials": {
             "SecretKey": "SEU_SECRET_KEY",
@@ -63,5 +63,86 @@ def main():
     print(sendText)
 
 if __name__ == "__main__":
-    main()
+    whatsapp()
+```
+
+## Vehicles Data Service
+
+```python
+from apigratis.Service import Service
+import json
+
+def vehicles():
+
+    vehicle = Service().vehicles(json.dumps({
+        "action": "dados",
+        "credentials": {
+            "SecretKey": "SEU_SECRET_KEY",
+            "PublicToken": "SEU_PUBLIC_TOKEN",
+            "DeviceToken": "SEU_DEVICE_TOKEN",
+            "BearerToken": "SEU_BEARER_TOKEN",
+        },
+        "body": {
+            "placa": "OQH3065",
+        }
+    }))
+
+    print(vehicle)
+
+if __name__ == "__main__":
+    vehicles()
+```
+
+## Vehicles FIPE Service
+
+```python
+from apigratis.Service import Service
+import json
+
+def fipe():
+
+    vehicle = Service().vehicles(json.dumps({
+        "action": "fipe",
+        "credentials": {
+            "SecretKey": "SEU_SECRET_KEY",
+            "PublicToken": "SEU_PUBLIC_TOKEN",
+            "DeviceToken": "SEU_DEVICE_TOKEN",
+            "BearerToken": "SEU_BEARER_TOKEN",
+        },
+        "body": {
+            "placa": "OQH3065",
+        }
+    }))
+
+    print(vehicle)
+
+if __name__ == "__main__":
+    fipe()
+```
+
+## CNPJ
+
+```python
+from apigratis.Service import Service
+import json
+
+def fipe():
+
+    vehicle = Service().vehicles(json.dumps({
+        "action": "/",
+        "credentials": {
+            "SecretKey": "SEU_SECRET_KEY",
+            "PublicToken": "SEU_PUBLIC_TOKEN",
+            "DeviceToken": "SEU_DEVICE_TOKEN",
+            "BearerToken": "SEU_BEARER_TOKEN",
+        },
+        "body": {
+            "placa": "OQH3065",
+        }
+    }))
+
+    print(vehicle)
+
+if __name__ == "__main__":
+    fipe()
 ```
