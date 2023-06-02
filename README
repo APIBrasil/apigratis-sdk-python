@@ -8,7 +8,7 @@ _Transforme seus projetos em solucoes inteligentes com nossa API. Com recursos c
 
 ```pip install apigratis-sdk-python```
 ## Canais de suporte (Comunidade)
-[![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
+[![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsPendingrUGIPWvUBYAjI1ogaGs)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
 
 ## Obtenha suas credenciais
@@ -22,13 +22,13 @@ https://pypi.org/project/apigratis-sdk-python
 
 | Up  | Services available            | Description       | Free    | Beta        | Stable   |
 ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
-| ✓ | WhatsAppService                | API do WhatsApp Gratuita.               |   ✓   | ✓                   | x                   |
-| ✓ | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   ✓   | ✓                   | x                   |
-| ✓ | Receita Data CPF               | API Dados de CPF Serasa.                |   ✓   | ✓                   | x                   |
-| ✓ | CorreiosService                | API Busca encomendas Correios Brazil.   |   ✓   | ✓                   | x                   |
-| ✓ | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   ✓   | ✓                   | x                   |
-| ✓ | VehiclesService                | API Placa Dados.                        |   ✓   | ✓                   | x                   |
-| ✓ | FipeService                    | API Placa FIPE.                         |   ✓   | ✓                   | x                   |
+| Yes | WhatsAppService                | API do WhatsApp Gratuita.               |   Yes   | Yes                   | Pending                   |
+| Yes | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   Yes   | Yes                   | Pending                   |
+| Yes | Receita Data CPF               | API Dados de CPF Serasa.                |   Yes   | Yes                   | Pending                   |
+| Yes | CorreiosService                | API Busca encomendas Correios Brazil.   |   Yes   | Yes                   | Pending                   |
+| Yes | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   Yes   | Yes                   | Pending                   |
+| Yes | VehiclesService                | API Placa Dados.                        |   Yes   | Yes                   | Pending                   |
+| Yes | FipeService                    | API Placa FIPE.                         |   Yes   | Yes                   | Pending                   |
 
 ## Como utilizar
 
@@ -45,8 +45,8 @@ import json
 
 def whatsapp():
 
-    sendText = Service().whatsapp(json.dumps({
-        "action": "sendText",
+    sendTePendingt = Service().whatsapp(json.dumps({
+        "action": "sendTePendingt",
         "credentials": {
             "SecretKey": "SEU_SECRET_KEY",
             "PublicToken": "SEU_PUBLIC_TOKEN",
@@ -60,7 +60,7 @@ def whatsapp():
         }
     }))
 
-    print(sendText)
+    print(sendTePendingt)
 
 if __name__ == "__main__":
     whatsapp()
@@ -120,15 +120,15 @@ if __name__ == "__main__":
     fipe()
 ```
 
-## CNPJ
+## Dados CNPJ Service
 
 ```python
 from apigratis.Service import Service
 import json
 
-def fipe():
+def cnpj():
 
-    vehicle = Service().vehicles(json.dumps({
+    vehicle = Service().cnpj(json.dumps({
         "action": "/",
         "credentials": {
             "SecretKey": "SEU_SECRET_KEY",
@@ -144,5 +144,5 @@ def fipe():
     print(vehicle)
 
 if __name__ == "__main__":
-    fipe()
+    cnpj()
 ```
