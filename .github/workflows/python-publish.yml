@@ -38,6 +38,9 @@ jobs:
             poetry config virtualenvs.create false
             poetry install
 
+      - name: Run tests
+        run: poetry run pytest
+
       - name: Build package
         run: poetry build
 

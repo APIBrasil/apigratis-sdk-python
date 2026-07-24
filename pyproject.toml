@@ -1,29 +1,50 @@
 [tool.poetry]
 name = "api-brasil"
-version = "2.0.0"
-description = "Este SDK foi desenvolvido para simplificar e agilizar a integração com a plataforma APIBrasil, reduzindo o esforço de desenvolvimento e otimizando o tempo dos usuários."
+version = "2.0.1"
+description = "SDK oficial Python da plataforma APIBrasil - WhatsApp, SMS, consultas CPF/CNPJ, veículos, CEP, correios, pagamentos PIX/boleto e mais."
 license = "MIT"
 readme = "README.md"
 authors = [
-    "Ivanildo Barauna de Souza Junior <ivanildo.jnr@outlook.com>",
-    "APIBRASIL <contato@apibrasil.com.br>"
+    "APIBRASIL <contato@apibrasil.com.br>",
+    "Ivanildo Barauna de Souza Junior <ivanildo.jnr@outlook.com>"
 ]
-classifiers=[
-    "Development Status :: 4 - Beta",
+keywords = [
+    "apibrasil",
+    "apigratis",
+    "whatsapp",
+    "api-rest",
+    "brasil",
+    "cep",
+    "cpf",
+    "cnpj",
+    "correios",
+    "sms",
+    "pix",
+    "boleto",
+    "fipe",
+    "placa",
+    "serasa",
+    "geolocation"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules"
 ]
-
-
-[tool.setuptools.packages.find]
-where = ["src/"]
-include = ["api-brasil*"]
+packages = [{ include = "api_brasil", from = "src" }]
+include = [{ path = "src/api_brasil/py.typed", format = ["sdist", "wheel"] }]
 
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.8"
 requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]
@@ -32,8 +53,8 @@ python-dotenv = "^1.0.1"
 black = "^24.10.0"
 
 [tool.poetry.urls]
-Homepage = "https://apibrasi.com.br"
-API-Docs = "https://apibrasil.com.br/documentacoes"
+Homepage = "https://apibrasil.com.br"
+Documentation = "https://doc.apibrasil.io"
 Repository = "https://github.com/ivanildobarauna-dev/apibrasil-py"
 BugTracker = "https://github.com/ivanildobarauna-dev/apibrasil-py/issues"
 
@@ -41,3 +62,14 @@ BugTracker = "https://github.com/ivanildobarauna-dev/apibrasil-py/issues"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]

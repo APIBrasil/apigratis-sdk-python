@@ -1,4 +1,4 @@
-from api_brasil import APIBrasilClient
+from api_brasil.api_client.client_builder import APIBrasilClient
 from api_brasil.features.interfaces import APIBrasilFeature
 
 

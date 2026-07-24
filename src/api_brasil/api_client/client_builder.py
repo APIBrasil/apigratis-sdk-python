@@ -4,8 +4,15 @@ import requests
 
 
 class APIBrasilClient:
+    """Cliente legado (<= 2.0.x), responsável por prover credenciais às features.
+
+    .. deprecated:: 2.0.1
+       Prefira :class:`api_brasil.ApiBrasil`, que cobre toda a plataforma com
+       métodos dedicados, hierarquia de erros, retry e hooks. Esta classe
+       continua funcionando com o mesmo contrato de antes.
+    """
+
     BASE_URL: str = "https://gateway.apibrasil.io/api/v2"
-    """ The client class is responsible for provide credentials to feature's ApiBrasil """
 
     def __init__(
         self, bearer_token: str, user_agent: str = "APIBrasil/Python-SDK"
